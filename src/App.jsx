@@ -5,9 +5,7 @@ import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
 import Detail from "./pages/Detail";
 import Items from "./pages/Items";
-/*
 import NotFound from "./pages/NotFound";
-*/
 function App() {
   return (
     <AppProvider>
@@ -19,9 +17,7 @@ function App() {
             <Route path="/favorites" element={<Favorites />} />
             <Route path="/items" element={<Items />} />
             <Route path="/items/:id" element={<Detail />} />
-            {/*
             <Route path="*" element={<NotFound />} />
-            */}
           </Routes>
         </main>
       </BrowserRouter>
