@@ -1,6 +1,6 @@
 # PokéDex App — React Router v6
 
-> Proyecto de práctica con React + React Router DOM v6, consumiendo la [PokéAPI](https://pokeapi.co/api/v2)).
+> Proyecto de práctica con React + React Router DOM v6, consumiendo la [PokéAPI](https://pokeapi.co/)).
 
 **Nivel objetivo: Senior**
 
@@ -130,4 +130,4 @@ src/
 - React 18 + Vite
 - React Router DOM v6
 - prop-types
-- PokéAPI (https://pokeapi.co/api/v2)
+- PokéAPI (https://pokeapi.co/)
