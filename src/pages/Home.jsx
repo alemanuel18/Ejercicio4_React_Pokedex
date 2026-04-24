@@ -42,24 +42,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <div className="home-features">
-        <div className="feature-card">
-          <span className="feature-icon">🔍</span>
-          <h3>Search & Filter</h3>
-          <p>Find any Pokémon by name or filter by type instantly.</p>
-        </div>
-        <div className="feature-card">
-          <span className="feature-icon">📊</span>
-          <h3>Detailed Stats</h3>
-          <p>View base stats, abilities, moves and full species info.</p>
-        </div>
-        <div className="feature-card">
-          <span className="feature-icon">❤️</span>
-          <h3>Favorites</h3>
-          <p>Save your favorite Pokémon — persisted across sessions.</p>
-        </div>
-      </div>
     </div>
   );
 }
