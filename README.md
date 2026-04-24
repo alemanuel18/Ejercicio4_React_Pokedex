@@ -1,6 +1,6 @@
 # PokéDex App — React Router v6
 
-> Proyecto de práctica con React + React Router DOM v6, consumiendo la [PokéAPI](https://pokeapi.co/).
+> Proyecto de práctica con React + React Router DOM v6, consumiendo la [PokéAPI](https://pokeapi.co/api/v2)).
 
 **Nivel objetivo: Senior**
 
@@ -16,7 +16,7 @@
 ### Instalación
 
 ```bash
-git clone 
+git clone https://github.com/alemanuel18/Ejercicio4_React_Pokedex.git
 cd pokedex-app
 npm install
 npm run dev
