@@ -3,10 +3,9 @@ import { AppProvider } from "./context/AppContext";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Favorites from "./pages/Favorites";
-
+import Detail from "./pages/Detail";
 import Items from "./pages/Items";
 /*
-import Detail from "./pages/Detail";
 import NotFound from "./pages/NotFound";
 */
 function App() {
@@ -19,9 +18,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/favorites" element={<Favorites />} />
             <Route path="/items" element={<Items />} />
-            {/*
             <Route path="/items/:id" element={<Detail />} />
-            <Route path="/favorites" element={<Favorites />} />
+            {/*
             <Route path="*" element={<NotFound />} />
             */}
           </Routes>
